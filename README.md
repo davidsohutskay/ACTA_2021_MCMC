@@ -9,8 +9,8 @@ David Sohutskay, Sherry Voytik-Harbin, Adrian Buganza Tepole**
 
 The code has been designed to run on Purdue Research Computing Clusters. It may not work as-is in your system. Here are a few tips to troubleshoot compiling: 
 
-* The code requires Stan library. It currently runs witn BOOST 1.75 and EIGEN 3.2.10
-* The code has a parallel version with OPEN MP. The parallel parts of the code are primarily in solver.cpp and can be easily commented out if desired 
+* The code requires the PyStan library and GCC compiler.
+* The code runs in parallel using the stanwound.sub file (you will need to configure your Conda environment with the appropriate packages installed)
 
 Please get in touch in you have additional questions about using this code:
 abuganza@purdue.edu
